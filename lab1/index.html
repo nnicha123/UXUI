@@ -1,0 +1,126 @@
+<!-- 
+    1. จับคู้
+    2. เขียน ชื่อ สกุล ลง A4 - 
+        a) 1 คู่ต่อ 1 แผ่น
+    3. ไปที่ website lazada.co.th หรือ website อะไรก็ได้ที่ชอบ
+    4. วิเคราะห์ แล้วเขียนออกมา (เช่น Web Lazada)
+    a) UX
+        i) Interaction Design - กดๆ กรอกๆ - กรอกแล้วมี autocomplete ทำให้สามารถรู้ได้ว่ามีสินค้าอะไรบ้าง หรือเรากรอกถูกป่าว 
+        ii) Information Architect - ข้อมูลๆ ลำดับๆ (ในหน้า และ ข้ามหน้า) - จัดเรียน menu ดีแล้ว ด้านบนเป็นเมนูไม่ค่อยสำคัญ ด้านซ้าย เป็น เมนู ด้านหมวดหมู่ ทำเห็นเห็นหมวดหมู่ง่าย เลือกได้ง่าย 
+        iii) Scenarios ( อย่างน้อย 2) 
+            1. รู้ตัว ว่าอยาก หาอะไร เลยเข้ามา Search - search bar ด้านบนเลย เห็นง่าย แสดงว่าคนเข้ามา search เยอะ
+            2. ชอบ gadget สามารถเข้ามาดู สินค้าได้แค่ gadget ได้อย่างง่ายดาย
+    b) UI
+        i) Color (จุดที่ใช้สี ทำไมใช้แบบนั้น) - สีราคาเป็นสีส้ม ทำให้เห็นชัด, สี ราคายังไม่ลด สีเทา และมีขีดฆ่า ทำให้คนไม่ต้องสน
+        ii) Graphic Design - banner ทำเป็นรูปแบบเดียวกันหมด และเป็นรูปจริง ทำให้สอดคล้องกัน 
+        iii) Layout - section category มีรูปที่เล็ก เพราะ ไม่จำเป็นต้องเน้นรูป , layout ทุกกล่อง สัดส่วนรูปต่างกัน ขึ้นกับว่าเป็นประเภทไหน 
+        iv) Font - font เล็กๆ ทั้งหน้า แม้แต่เมนูก็ไม่ใหญ่มาก แสดงว่าต้องการเน้นเนื้อหาเยอะๆ 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigating UX/UI of website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row ml-2 mr-2 mt-4 mb-4">
+            <div class="col">
+                <h3>Nicha Ngamtweerat</h3>
+            </div>
+        </div>
+        <div class="row ml-2 mr-2">
+            <div class="col-lg-6 card questions-UX">
+                <h3>3. Website Name</h3>
+            </div>
+            <div class="col-lg-6 card answers-UX">
+                <h3>Lazada Thailand</h3>
+            </div>
+        </div>
+        <div class="row ml-2 mr-2">
+            <div class="col-lg-6 card questions-UX">
+                <p>4 ai) Interaction Design</p>
+            </div>
+            <div class="col-lg-6 card answers-UX">
+                <li>ชอบที่ hover แล้วมี drop-down ลงมาให้เลือก</li>
+                <li>แต่บางครั้ง hover แล้ว drop-down ลงมาลยก็ทำให้ใช้งานยากตอนจะกด advertisement ข้างล่างแล้วเผลอไปโดนเข้า (ถ้าเป็นตัวเองจะใช้ click แทน hover)</li>
+                <li>Search ชื่อสินค้าแล้วมีตัวเลือก auto-complete ให้อย่างเช่น search ชื่อ brand สินค้าแล้วมีตัวเลือกมาให้</li>
+            </div>
+        </div>
+        <div class="row ml-2 mr-2">
+            <div class="col-lg-6 card questions-UX">
+                <p>ii) Information Architect</p>
+            </div>
+            <div class="col-lg-6 card answers-UX">
+                <li>Categories มี dropdown ชัดเจนทำให้ไปหาข้อมูลตามหมวดหมู่ง่ายขึ้น</li>
+                <li>มีหมวดหมู่ actions ที่นิยมให้เลือกข้างบนชัดเจน ทำให้ง่ายต่อการใช้งาน เช่นถ้าจะ topup สามารถไปกดที่ topup ได้เลย</li>
+                <li>Search bar อยู่ข้างบนสามารถเข้าไปหาสินค้าได้ง่าย</li>
+                <li>Track, login, signup อยู่บนขวา เป็นหมวดหมู่ที่เจาะจงที่ตัว user โดยตรงที่ต้องการลงชื่อเข้าใช้เพื่อที่ e.g. ไป track การจัดส่งหรือไปดูข้อมูลการสั่งซื้อ ทำให้สะดวกต่อการใช้งานเพราะอยู่ในกลุ่มเดียวกัน</li>
+            </div>
+        </div>
+        <div class="row ml-2 mr-2">
+            <div class="col-lg-6 card questions-UX">
+                <p>iii) Scenarios</p>
+            </div>
+            <div class="col-lg-6 card answers-UX">
+                <li>ต้องการหาอาหารหมา Categories มี dropdown ชัดเจนทำให้ตรงไปหมวดหมู่ pets ได้เลย</li>
+                <li>อยากเข้ามาทำ mobile topup เฉยๆ (ไม่สนใจจะสั่งสินค้า) มีหมวดหมู่ actions ที่นิยมให้เลือกข้างบนชัดเจน ทำให้ง่ายต่อการใช้งาน เช่นถ้าจะ topup สามารถไปกดที่ topup ได้เลย</li>
+                <li>อยากเข้ามาหาซื้อโฟมล้างหน้าของ merci => Search bar อยู่ข้างบนสามารถเข้าไปหาสินค้าได้ง่าย และมี autofill ทำให้ง่ายต่อการหา (filter สิ่งที่ไม่สนใจ ออกไป)</li>
+                <li>อยากรู้ว่าขั้นตอนการจัดส่งสินค้าไปถึงไหนแล้ว -> Track, login, signup อยู่บนขวา เป็นหมวดหมู่ที่เจาะจงที่ตัว user โดยตรงที่ต้องการลงชื่อเข้าใช้เพื่อที่ไป track การจัดส่งหรือไปดูข้อมูลการสั่งซื้อ ทำให้สะดวกต่อการใช้งานเพราะอยู่ในกลุ่มเดียวกัน</li>
+            </div>
+        </div>
+        <div class="row mt-4 ml-2 mr-2">
+            <div class="col-lg-6 card questions-UI">
+                <p>bi) Color</p>
+            </div>
+            <div class="col-lg-6 card answers-UI">
+                <li>Header มีสองส่วน บนสุดที่เกี่ยวกับ user จะใช้สีขาวเทาๆ เพื่อไม่ดึงดูดความสนใจ เพราะเป็นเพียงข้อมูล user เท่านั้น</li>
+                <li>ปุ่ม search มีสีส้ม ดึงดูดความสนใจได้ดี ทำให้อยากกด click เข้าไป</li>
+                <li>สี background ของตัว main content เป็นสี แดง แต่ content ข้างในเป็น grid สีขาวทำให้ content ดูโดดเด่นถ้าเทียบกับสีพื้นหลัง แต่ก็ทำให้เว็ปดูแคป + ไม่สบายตาถ้าเทียบกับเว็ปอื่นเช่น watsons</li>
+                <li>ราคามี font สีแดง ทำให้รู้สึกเหมือนมีอะไรพิเศษ เช่น ลดราคา ราคาเดิมเป็นสีเทามีขีดทำให้ความสนใจอยู่ที่ราคาที่ลดแล้ว</li>
+            </div>
+        </div>
+        <div class="row ml-2 mr-2">
+            <div class="col-lg-6 card questions-UI">
+                <p>ii) Graphic Design</p>
+            </div>
+            <div class="col-lg-6 card answers-UI">
+                <li>Banner ใหญ่เต็มจอ ดึงดูดความสนใจไปที่ promotion ใหม่</li>ทกให้อยากกดเข้าไปดู
+                <li>มี section vouchers ที่ตกแต่งสวยงาม เป็นรูปบัตรเหมือนตั๋วหนัง </li>
+                <li>ช่วง get cashback ทำออกมาคล้ายปุ่มแต่ใหญ่มากและเป็นสีฟ้า เข้ากับพ่้นหลังได้ดี</li>
+            </div>
+        </div>
+        <div class="row ml-2 mr-2">
+            <div class="col-lg-6 card questions-UI">
+                <p>iii) Layout</p>
+            </div>
+            <div class="col-lg-6 card answers-UI">
+                <li>Banner ใหญ่เต็มจอ ดึงดูดความสนใจไปที่ promotion ใหม่ทำให้อยากกดเข้าไปดู</li>
+                <li>section deals ที่ขาย product ทำออกมาเป็น card เล็กๆแต่ละ card มีข้อมูลครบและจัดวางได้เท่ากันเป็น grid ทำให้ดูสบายตาน่าใช้</li>
+                <li>ทุกๆ section จะมี margin เท่ากันหมดทำให้ดูสะอาด เรียบร้อย</li>
+                <li>Search bar ข้างบน ไม่มีกรอบ ทำให้ข้อมูลข้างบนไม่ดูรกเกินไป</li>
+            </div>
+        </div>
+        <div class="row ml-2 mr-2">
+            <div class="col-lg-6 card questions-UI">
+                <p>iV) Font</p>
+            </div>
+            <div class="col-lg-6 card answers-UI">
+                <li>font ข้างบนจะเท่ากันถ้าอยู่กลุ่มเดียวกัน ทำให้ดูเป็นระเบียบเรียบร้อย</li>
+                <li>ใน items card -> font ราคา จะใหญ่กว่า font อื่นๆ เพื่อดึงความสนใจ</li>
+                <li>font ช่วง promotions จะใหญ่มากๆ เพื่อแสดงถึงความสำคัญ (ทำให้ดูตื่นเต้น)</li>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

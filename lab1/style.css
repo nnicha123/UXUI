@@ -1,0 +1,15 @@
+.questions-UX{
+    background-color: rgb(155, 229, 222);
+}
+.answers-UX{
+    background-color: rgb(194, 235, 231);
+}
+.questions,.answers{
+    text-align: center;
+}
+.questions-UI{
+    background-color: thistle;
+}
+.answers-UI{
+    background-color: rgb(230, 211, 230);
+}
