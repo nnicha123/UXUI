@@ -1,5 +1,6 @@
 
-# Lab
+# UX/UI Day 1 labs & homework
+## Lab
 * Lab1 in lab1 folder
 * Lab2 in lab2 folder
 
