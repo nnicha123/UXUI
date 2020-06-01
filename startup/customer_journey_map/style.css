@@ -1,0 +1,21 @@
+body{
+    background-color: whitesmoke;
+}
+.feeling,.thinking,.doing,.touchpoint,.stages{
+    font-weight: bold;
+}
+.stage-inspiration{
+    background-color: rgb(208, 234, 250);
+}
+.stage-research{
+    background-color: rgb(179, 230, 224);
+}
+.stage-purchase-trial{
+    background-color: rgb(245, 245, 188);
+}
+.stage-while-posted{
+    background-color: rgb(245, 220, 173);
+}
+.stage-decision-to-repurchase{
+    background-color: rgb(252, 194, 184);
+}
