@@ -5,7 +5,7 @@
 * Lab2 in lab2 folder
 
 
-### Startup project
+### Startup project (inside startup folder)
 * Persona -> persona folder
 * Customer journey map -> customer_journey_map
 * Problem statement & solutions & image of feasibility vs value investigation -> problem_statement folder
