@@ -18,3 +18,4 @@
 * Inspiration board -> Link:https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=48%3A0&scaling=min-zoom
 * Moodboard -> Link : https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=48%3A27&scaling=min-zoom
 * Style Guide -> Link : https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=48%3A48&scaling=min-zoom
+* Prototype Using Style Guide -> Link : https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=67%3A3&scaling=min-zoom
