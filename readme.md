@@ -32,3 +32,4 @@ their work to attract future employers, or gain more followers.
 * Inspiration board -> Link : https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=131%3A0&scaling=min-zoom
 * Moodboard -> Link : https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=131%3A17&scaling=min-zoom
 * Style Guide -> Link : https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=140%3A0&scaling=scale-down
+* Prototype using style-guide -> Link : https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=141%3A2&scaling=scale-down
