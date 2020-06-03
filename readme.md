@@ -6,8 +6,8 @@
 
 
 ### Startup project (inside startup_gameapp folder)
-#### This app is for developers to share their work which is based on the "coding games" genre. It is also a platform for them to discuss with
-#### other programmers about their work & share their ideas
+ This app is for developers to share their work which is based on the "coding games" genre. It is also a platform for them to discuss with
+ other programmers about their work & share their ideas
 * Persona -> persona folder
 * Customer journey map -> customer_journey_map
 * Problem statement & solutions & image of feasibility vs value investigation -> problem_statement folder
