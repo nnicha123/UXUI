@@ -29,4 +29,6 @@ their work to attract future employers, or gain more followers.
 * Problem statement & solutions & image of feasibility vs value investigation -> problem_statement folder
 * Login page (button links to home page)-> Link: https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=4%3A3&scaling=scale-down
 * Wire frame ideas (took pictures of ideas) in wireframe_ideas.png
-* Prototype from wire frame ideas -> https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=113%3A3&scaling=scale-down
+* Prototype from wire frame ideas -> Link : https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=113%3A3&scaling=scale-down
+* Inspiration board -> Link : https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=131%3A0&scaling=min-zoom
+* Moodboard -> Link : https://www.figma.com/proto/sjKbVW5LHzeGQlEk9guQWX/Login?node-id=131%3A17&scaling=min-zoom
