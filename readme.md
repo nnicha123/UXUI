@@ -7,6 +7,7 @@
 ### Startup project 1 (inside startup_gameapp folder)
  This app is for startup developers to share their work which is based on the "coding games" genre. It is also a platform for them to discuss with
  other programmers about their work & share their ideas
+#### Preview of finished page -> Gamesapp.PNG
 * Persona -> persona folder
 * Customer journey map -> customer_journey_map
 * Problem statement & solutions & image of feasibility vs value investigation -> problem_statement folder
@@ -24,6 +25,7 @@
 ### Startup project 2 (inside startup_bakingapp folder)
 This app is for bakers to share their recipe to get voted to be baker of the week. It is a chance for them to showcase
 their work to attract future employers, or gain more followers.
+#### Preview of finished page -> Bakingapp.PNG
 * Persona -> persona folder
 * Customer journey map -> customer_journey_map
 * Problem statement & solutions & image of feasibility vs value investigation -> problem_statement folder
